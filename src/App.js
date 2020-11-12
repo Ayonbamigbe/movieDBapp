@@ -53,6 +53,9 @@ const MoviesApp = () => {
                     /> 
                 </form>
             </header>
+            <div className='banner'>
+                <h1>MOVIES</h1>
+            </div>
             <div className="movie-container">
                 {movies.length > 0 && movies.map((movie) =>
                     <MovieCard key={movie.id} {...movie}/>

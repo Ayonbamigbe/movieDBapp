@@ -5,7 +5,7 @@ import MovieCard from './components/MovieCard';
 
 const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=5e87ae2d66a6bcca76ece81c68d48b23&page=1";
 
-const SEARCH_API = "https://api.themoviedb.org/3/search/movie/?api_key=5e87ae2d66a6bcca76ece81c68d48b23&query=";
+const SEARCH_API = "http://api.themoviedb.org/3/search/movie/?api_key=5e87ae2d66a6bcca76ece81c68d48b23&query=";
 
 
 const MoviesApp = () => {

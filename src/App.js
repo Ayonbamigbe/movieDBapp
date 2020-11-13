@@ -47,7 +47,7 @@ const MoviesApp = () => {
                 <form  onSubmit={handleOnSubmit}>
                     <input className = 'search' 
                         type = 'search' 
-                        placeholder = 'search... 🔎'
+                        placeholder = 'search'
                         value={query}
                         onChange={handleOnChange}
                     /> 
